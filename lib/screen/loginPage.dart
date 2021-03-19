@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter_task_app/main.dart';
 
 class LoginPage extends StatefulWidget {
@@ -36,16 +35,16 @@ class _LoginPageState extends State<LoginPage> {
             body: SingleChildScrollView(
               child: Column(
                 children: [
-                  Padding(
-                    padding: const EdgeInsets.fromLTRB(0, 40, 0, 0),
-                    child: Center(
-                      child: SvgPicture.asset(
-                        'assets/logo.svg',
-                        width: 70,
-                        height: 60,
-                      ),
-                    ),
-                  ),
+                  // Padding(
+                  //   padding: const EdgeInsets.fromLTRB(0, 40, 0, 0),
+                  //   child: Center(
+                  //     child: SvgPicture.asset(
+                  //       'assets/logo.svg',
+                  //       width: 70,
+                  //       height: 60,
+                  //     ),
+                  //   ),
+                  // ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(0, 20, 0, 0),
                     child: Text(
